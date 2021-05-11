@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>input</title>
+<style>
+body {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 1.28cm;
+}
+#guide{
+    position: absolute;
+    margin-left: 2.60cm;
+    margin-right: 2.60cm;
+}
+.text1{
+    font-size: 15px;
+    color: #63615A;
+}
+#writeBox{
+    position: absolute;
+    top: 5.32cm;
+    width: 10.09cm;
+    height: 7.03cm;
+    border: 0.02px solid #878787;
+    background-color: #EDF6FF;
+}
+#twoButton{
+    position: absolute;
+    top: 13.05cm;
+    left: 6.43cm;
+}
+.push{
+    width: 1.98cm;
+    height: 0.88cm;
+    background-color: #D8CECE;
+}
+</style>
+</head>
+<body>
+<div id="guide">
+    <span class="text1">오늘 당신의 이야기를 적어주세요.</span>
+</div>
+
+<textarea name="writeBox" id="writeBox" placeholder="여기에 입력해주세요."></textarea>
+
+<div id="twoButton">
+    <button class="push" type="button" onclick="location.href='fire.html'">취소</button>
+    <button class="push" type="button" onclick="location.href='fire.html'">저장</button>
+</div>
+</body>
+</html>
